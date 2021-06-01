@@ -1,0 +1,15 @@
+/api/
+/bin/
+/build/
+/charts/
+/config.toml
+/config.toml.dist
+/Dockerfile
+/docs/
+/.golangci.yml
+/gqlgen.yml
+/.licensei.toml
+/scripts/
+pkged.go
+/web/dist/
+/web/node_modules/

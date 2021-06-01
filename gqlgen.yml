@@ -1,0 +1,50 @@
+schema:
+    - "api/graphql/*.graphql"
+
+exec:
+    filename: .gen/api/graphql/exec.go
+    package: graphql
+
+model:
+    filename: .gen/api/graphql/generated.go
+    package: graphql
+
+struct_tag: json
+omit_slice_element_pointers: true
+
+models:
+    Provider:
+        model: github.com/banzaicloud/cloudinfo/internal/cloudinfo.Provider
+
+    Service:
+        model: github.com/banzaicloud/cloudinfo/internal/cloudinfo.Service
+
+    Region:
+        model: github.com/banzaicloud/cloudinfo/internal/cloudinfo.Region
+
+    Zone:
+        model: github.com/banzaicloud/cloudinfo/internal/cloudinfo.Zone
+
+    InstanceType:
+        model: github.com/banzaicloud/cloudinfo/internal/cloudinfo.InstanceType
+
+    NetworkCategory:
+        model: github.com/banzaicloud/cloudinfo/internal/cloudinfo.NetworkCategory
+
+    InstanceTypeCategory:
+        model: github.com/banzaicloud/cloudinfo/internal/cloudinfo.InstanceTypeCategory
+
+    IntFilter:
+        model: github.com/banzaicloud/cloudinfo/internal/cloudinfo.IntFilter
+
+    FloatFilter:
+        model: github.com/banzaicloud/cloudinfo/internal/cloudinfo.FloatFilter
+
+    NetworkCategoryFilter:
+        model: github.com/banzaicloud/cloudinfo/internal/cloudinfo.NetworkCategoryFilter
+
+    InstanceTypeCategoryFilter:
+        model: github.com/banzaicloud/cloudinfo/internal/cloudinfo.InstanceTypeCategoryFilter
+
+    InstanceTypeQueryInput:
+        model: github.com/banzaicloud/cloudinfo/internal/cloudinfo.InstanceTypeQueryFilter
