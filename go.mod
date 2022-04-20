@@ -30,8 +30,8 @@ require (
 	github.com/moogar0880/problems v0.1.1
 	github.com/oracle/oci-go-sdk v24.3.0+incompatible
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	github.com/prometheus/client_golang v1.10.0
-	github.com/prometheus/common v0.25.0
+	github.com/prometheus/client_golang v1.12.1
+	github.com/prometheus/common v0.34.0
 	github.com/sagikazarmark/viperx v0.8.0
 	github.com/shopspring/decimal v1.2.0 // indirect
 	github.com/sirupsen/logrus v1.8.1
@@ -41,7 +41,7 @@ require (
 	github.com/ugorji/go v1.1.7 // indirect
 	github.com/vektah/gqlparser/v2 v2.2.0
 	go.opencensus.io v0.23.0
-	golang.org/x/oauth2 v0.0.0-20210514164344-f6687ab2804c
+	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.47.0
 	gopkg.in/go-playground/validator.v8 v8.18.2
 	logur.dev/adapter/logrus v0.5.0
